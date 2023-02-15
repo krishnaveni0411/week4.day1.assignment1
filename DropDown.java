@@ -23,7 +23,9 @@ public class DropDown {
 		 driver.findElement(By.xpath("//li[text()='PostMan']")).click();
 		 driver.findElement(By.xpath("(//label[@class='ui-selectonemenu-label ui-inputfield ui-corner-all'])[3]")).click();
 		 driver.findElement(By.xpath("//li[text()='English']")).click();
-		 
+		 Thread.sleep(3000);
+		 driver.findElement(By.xpath("(//div[@role='combobox'])[4]")).click(); 
+		 driver.findElement(By.xpath("//li[text()='Two']")).click();
 		 
 	}
 }
