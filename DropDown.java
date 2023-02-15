@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class DropDown {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		EdgeDriver driver=new EdgeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		 driver.get("https://leafground.com/select.xhtml;jsessionid=node0297llw43prfo1hkr9eef8nsf102385.node0");
